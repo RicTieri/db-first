@@ -1,0 +1,22 @@
+Nome tabella: auto
+
+id - intero - MEDIUMINT - PRIMARY_KEY UNIQUE AUTO_INCREMENT - NOT NULL
+marca - stringa - VARCHAR(30) - NOT NULL
+modello - stringa - VARCHAR(30) - NOT NULL
+colore - stringa - VARCHAR(50) - NOT NULL
+prezzo - float - FLOAT(9, 2) - NULL
+cambio - stringa - VARCHAR(30) - NOT NULL
+carburante - stringa - VARCHAR(30) - NOT NULL
+n_porte - stringa -VARCHAR(3) - NOT NULL
+anno_uscita_modello - YEAR - NOT NULL
+anno_prima_immatricolazione - YEAR - NULL
+km0 - booleano - BOOLEAN (TINYINT) - NOT NULL - DEFAULT(FALSE)
+auto_usata - booleano - BOOLEAN (TINYINT) - NOT NULL - DEFAULT(FALSE)
+tagliando - booleano - BOOLEAN (TINYINT) - NOT NULL - DEFAULT(FALSE)
+km_tagliando - stringa - VARCHAR(10) - NULL
+numero_proprietari - stringa - VARCHAR(20) - NULL
+km_percorsi - intero - MEDIUMINT - NOT NULL - DEFAULT(0)
+disponibile - booleano - BOOLEAN (TINYINT) - NOT NULL - DEFAULT(TRUE)
+
+
+
